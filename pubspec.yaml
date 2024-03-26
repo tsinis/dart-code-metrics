@@ -1,5 +1,5 @@
 name: dart_code_metrics
-version: 5.7.6
+version: 5.7.6+1
 description: Software analytics tool that helps developers analyse and improve software quality.
 homepage: https://dcm.dev/
 repository: https://github.com/dart-code-checker/dart-code-metrics
@@ -26,16 +26,16 @@ dependencies:
   platform: ^3.1.1
   pub_updater: ^0.4.0
   source_span: ^1.10.0
-  uuid: ^3.0.7
+  uuid: ^4.3.3
   xml: ^6.3.0
   yaml: ^3.1.2
 
 dev_dependencies:
-  coverage: ^1.6.4
-  intl: ^0.18.1
-  lints: ^2.1.1
-  mocktail: ^1.0.1
-  test: ^1.24.7
+  coverage: ^1.7.2
+  intl: ^0.19.0
+  lints: ^3.0.0
+  mocktail: ^1.0.3
+  test: ^1.25.2
 
   # internal package, used only in tests data
   test_lints:
