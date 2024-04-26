@@ -1,5 +1,5 @@
 name: dart_code_metrics
-version: 5.7.6+1
+version: 5.8.0+1
 description: Software analytics tool that helps developers analyse and improve software quality.
 homepage: https://dcm.dev/
 repository: https://github.com/dart-code-checker/dart-code-metrics
@@ -10,32 +10,32 @@ environment:
   sdk: ^3.0.0
 
 dependencies:
-  analyzer: ^5.13.0
-  analyzer_plugin: ^0.11.2
-  ansicolor: ^2.0.1
-  args: ^2.4.2
-  collection: ^1.17.2
-  crypto: ^3.0.3
-  dart_code_metrics_presets: ^2.4.0
-  file: ^7.0.0
-  glob: ^2.1.2
-  html: ^0.15.4
-  http: ^1.1.0
-  meta: ^1.9.1
-  path: ^1.8.3
-  platform: ^3.1.1
-  pub_updater: ^0.4.0
-  source_span: ^1.10.0
-  uuid: ^4.3.3
-  xml: ^6.3.0
-  yaml: ^3.1.2
+  analyzer: any
+  analyzer_plugin: any
+  ansicolor: any
+  args: any
+  collection: any
+  crypto: any
+  dart_code_metrics_presets: any
+  file: any
+  glob: any
+  html: any
+  http: any
+  meta: any
+  path: any
+  platform: any
+  pub_updater: any
+  source_span: any
+  uuid: any
+  xml: any
+  yaml: any
 
 dev_dependencies:
   coverage: ^1.7.2
   intl: ^0.19.0
   lints: ^3.0.0
   mocktail: ^1.0.3
-  test: ^1.25.2
+  test: ^1.25.4
 
   # internal package, used only in tests data
   test_lints:
